@@ -1,5 +1,50 @@
 # Machine Learning Workshop – Course Materials
 
+## 0. Using materials from this repository
+
+### 1. Cloning the repository (first time only)
+
+On the first class, clone the repository:
+
+git clone <REPOSITORY_URL>
+cd <REPOSITORY_NAME>
+
+This will create a folder on your computer with the course materials.
+
+---
+
+### 2. Before pulling new updates
+
+Before downloading new materials, **make a copy of your modified notebook**.
+
+The easiest way is to rename your file, for example:
+
+lab01.ipynb → lab01_yourname.ipynb
+
+or create a copy:
+
+cp lab01.ipynb lab01_yourname.ipynb
+
+This ensures your solutions will not be overwritten.
+
+---
+
+### 3. Downloading updates
+
+After making the copy, you can safely update the repository:
+
+git pull
+
+Git will download the latest version of the materials.
+
+---
+
+### Important
+
+Always work on your own copy of the notebook (e.g. `*_yourname.ipynb`).  
+Treat the notebooks in the repository as **templates with tasks**.
+
+
 ## 1. Setting Up the Environment
 
 ### 1.1. D10-204 room; using existing conda env (with CUDA)
@@ -105,12 +150,12 @@ source ml_course/bin/activate
 
 ## 2. Structure of the Course
 
-- The course is divided into **two main deep learning topics**.  
-- The first **two weeks** are reserved for **warm-up, environment setup, and PyTorch basics**.  
-- After that (26.04.2026), we will start **Notebook 1**, the first of two main notebooks.  
+- The course is divided into **few main deep learning topics**.  
+- The first 1-2 week(s) are reserved for **warm-up, environment setup, and PyTorch basics**.  
+- After that we will start **Notebook 1**, the first of main notebooks.  
 
 ### Workshop Notebooks
-- There will be **two main notebooks counted toward your grade** in total.  
+- There will be **few (2-4) main notebooks counted toward your grade** in total.  
 - Each notebook contains:
   - A **baseline implementation** for the topic.
   - Several **exploration directions**, each with **two levels**:
