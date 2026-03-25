@@ -3,6 +3,8 @@ data/*
 runs/*
 checkpoints/*
 logs/*
+solutions.ipynb
+1.evaluation_cheatsheet.html
 
 # Python
 __pycache__/
