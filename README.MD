@@ -3,7 +3,8 @@
 - 16.04.2026 - evaluation (Notebook 2.)
 - 30.04.2026 - evaluation (Notebook 3.)
 - 07.05.2026 - projects start
-    - 
+
+
 ## Using materials from this repository
 
 ### 1. Cloning the repository (first time only)
